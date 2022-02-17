@@ -22,9 +22,9 @@ function createBoxes(amt) {
 }
 
 function createBox(i) {
-  return `<div style="background-color: ${getRandomHexColor()}; height: ${
-    30 + 10 * i
-  }px; width: ${30 + 10 * i}px"></div>`;
+  return `<div style="background-color: ${getRandomHexColor()}; 
+  height: ${30 + 10 * i}px; width: ${30 + 10 * i}px">
+  </div>`;
 }
 
 function destroyBoxes() {
